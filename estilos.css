@@ -1,0 +1,53 @@
+h1{
+	font-size: 3em;
+	font-style:italic;
+
+}
+/*p{
+	font-size: 3em;
+	font-style:italic;
+}*/
+p.error{
+	color:#ff0000;
+}
+div.texto p span{
+	font-style: italic;
+	color: #ff0000;
+}
+
+
+
+
+div#textoprincipal{
+	background: orange;}
+
+div.lista{
+	background: yellow;}
+
+div#textoprincipal p span{
+	text-align:justify;}
+
+div#textoprincipal p{
+	color: blue;}
+
+div#textoprincipal p span{
+	font-style: italic;
+	color: #ff0000;}
+
+div.lista ul li p{
+	background: red;}
+
+div#textoprincipal>p{
+	border:5px solid black ;
+    font-size: 25px;
+}
+  
+ div#textoprincipal h2+p{
+ 	color: pink;
+ 	background: blue;
+ }  
+    
+p.marron~div ul{
+	background: red;
+}
+
